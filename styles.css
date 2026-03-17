@@ -9,10 +9,141 @@ DARK BLUE: #1D3557
 */
 
 body {
-    margin: 0;
-    text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: "Playwrite MX", cursive;
 }
 
-img {
-    width: 100px;
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url(images/durango.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+}
+
+.title {
+  background-color: #708D81;
+  color: #f1faee;
+  margin: 125px 0 0 0;
+  padding: 5px 12px;
+  border-radius: 10px;
+  color: #f9ebe0;
+  font-size: 28px;
+  text-shadow: #181f1c 0 0 1px;
+}
+
+.sub-title {
+  text-align: center;
+  background-color: #708D81;
+  color: #f9ebe0;
+  margin: 10px 0 0 0;
+  padding: 6px 20px;
+  border-radius: 10px;
+  width: 500px;
+  font-size: 20px;
+  text-shadow: #181f1c 0 0 1px;
+}
+
+.activities-section {
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9ebe0;
+  height: auto;
+}
+.activities-header {
+  color: #181F1C;
+  font-size: 25px;
+  margin: 20px 0 0 0;
+  text-shadow: #181f1c 0 0 1px;
+}
+
+.activities {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin: 50px 0 40px 0;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.activity-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.activities-images {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.activity-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #181F1C;
+  margin: 25px 0 17px 0;
+  width: 210px;
+}
+.activity-description {
+  font-size: 16px;
+  color: #181F1C;
+  width: 230px;
+}
+
+.guide-section {
+  background-color: #D64045;
+  /* min-height: 100vh; */
+  /* height: 100%; */
+  display: flex;
+  justify-content: center;
+  /* padding: 50px 0; */
+}
+
+.card{
+    background-color: #f9ebe0;
+    margin: 50px 160px;
+    border-radius: 10px;
+    border-bottom: 7px solid #181F1C;
+    display: flex;
+    align-items: center;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.guide-img {
+  width: 180px;
+  /* height: 250px; */
+  border-radius: 10%;
+  margin: 20px ;
+}
+
+.guide-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 14px 11px 25px 11px;
+}
+
+.guide-header{
+    color: #181F1C;
+    font-size: 24px;
+    margin: 0 0 10px 0;
+}
+.guide-description{
+    color: #181F1C;
+    font-size: 16px;
+    width: 200px;
+}
+
+.guide-name{
+    color: #181F1C;
+    font-size: 16px;
+    font-weight: bold;
+
 }
